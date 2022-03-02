@@ -70,7 +70,7 @@ const SubmitFormButton = () => {
         <div className="container px-5 my-5">
             <div className="d-grid">
                 <button
-                    className="btn btn-primary btn-lg disabled"
+                    className="btn btn-primary btn-lg enabled"
                     id="submitButton"
                     type="submit"
                 >
