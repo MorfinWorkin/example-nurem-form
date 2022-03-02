@@ -6,13 +6,13 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 ReactDOM.render(
   <React.StrictMode>
-    {/* <InputTextBox />
+    <InputTextBox />
     <SelectBox />
-    <BigTextBox />*/}
-    <Form />
-    {/* <SubmitFormButton />
+    <BigTextBox />
+    {/* <Form /> */}
+    <SubmitFormButton />
     <Button>Hello</Button>
-    <MyButton /> */}
+    <MyButton />
   </React.StrictMode>,
   document.getElementById('root')
 );
