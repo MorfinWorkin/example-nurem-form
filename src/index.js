@@ -11,7 +11,7 @@ ReactDOM.render(
     <BigTextBox />
     {/* <Form /> */}
     <SubmitFormButton />
-    <p>USLESS BUTTONS</p>
+    <p>USELESS BUTTONS</p>
     <Button>Hello</Button>
     <MyButton />
   </React.StrictMode>,
