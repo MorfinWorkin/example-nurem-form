@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { MyButton, Form, SelectBox, InputTextBox, BigTextBox, SubmitFormButton } from './components/Form';
-import Button from 'react-bootstrap/Button';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import CustomButton from './components/CustomButton';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -12,8 +12,7 @@ ReactDOM.render(
     {/* <Form /> */}
     <SubmitFormButton />
     <p>USELESS BUTTONS</p>
-    <Button>Hello</Button>
-    <MyButton />
+    <CustomButton/>
   </React.StrictMode>,
   document.getElementById('root')
 );

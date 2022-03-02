@@ -1,13 +1,5 @@
 import React from 'react';
 
-const MyButton = () => {
-    return (
-        <div>
-            <button>No hace ni mierda este boton</button>
-        </div>
-    );
-}
-
 const InputTextBox = () => {
     return (
         <div className="container px-5 my-5">
@@ -307,4 +299,4 @@ const Form = () => {
     );
 }
 
-export { Form, MyButton, InputTextBox, SelectBox, BigTextBox, SubmitFormButton, FieldRequired };
+export { Form, InputTextBox, SelectBox, BigTextBox, SubmitFormButton, FieldRequired };
