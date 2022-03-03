@@ -1,12 +1,8 @@
-
-.float-left {
-    
-    border-color: .15s ease-in-out;
-    box-shadow: .15s ease-in-out;
-    height: calc(3.5rem + 2px);
-    line-height: 1.25;
-    transition: ease-in;
-    display: flex;
-
+.custom-margin {
+   margin-left: 1.5rem;
+   margin-right: auto;
 }
 
+.float-margin {
+   margin-left: 0;
+}
