@@ -1,4 +1,10 @@
 .btn-primary {
   color: black;
-  background-color: orange;
+  background-color: #04D4F0;
+  
+}
+
+.btn-primary:hover {
+  color: black;
+  background-color: #04ECF0;
 }
