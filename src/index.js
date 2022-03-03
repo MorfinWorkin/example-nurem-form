@@ -4,6 +4,8 @@ import { MyButton, Form, SelectBox, InputTextBox, BigTextBox, SubmitFormButton }
 import 'bootstrap/dist/css/bootstrap.min.css';
 import CustomButton from './components/CustomButton';
 import CustomInputTextBox from './components/CustomInput';
+import CustomRadios from './components/CustomRadios';
+import { Stack } from 'react-bootstrap';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -11,17 +13,25 @@ ReactDOM.render(
     <SelectBox />
     <BigTextBox /> 
     <Form /> */}
-    <CustomInputTextBox
-      className='float-left'
-      text='Email'
-      mutedText='correo@ejemplo.com'
-      innerText='Ingresa tu correo perro'
-    />
-    <CustomInputTextBox
-      text='Nombre'
-      mutedText=' '
-      innerText='Ingresa tu nombre baby'
-    />
+    <Stack gap={3}>
+      <CustomInputTextBox
+        className='float-left'
+        text='Email'
+        mutedText='correo@ejemplo.com'
+        innerText='Ingresa tu correo perro'
+      />
+      <CustomInputTextBox
+        text='Nombre'
+        mutedText=' '
+        innerText='Ingresa tu nombre baby'
+      />
+      <CustomInputTextBox
+        text='Apellido'
+        mutedText=' '
+        innerText='Ingresa tu apellido baby'
+      />
+      <CustomRadios />
+    </Stack>
     <SubmitFormButton />
     <p>USELESS BUTTONS</p>
     <CustomButton />
