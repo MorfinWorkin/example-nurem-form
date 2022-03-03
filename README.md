@@ -17,10 +17,10 @@
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
-[![Contributors][contributors-shield]][https://github.com/MorfinWorkin/example-nurem-form/graphs/contributors]
-[![Forks][forks-shield]][https://github.com/MorfinWorkin/example-nurem-form/network/members]
-[![Stargazers][stars-shield]][https://github.com/MorfinWorkin/example-nurem-form/stargazers]
-[![Issues][issues-shield]][https://github.com/MorfinWorkin/example-nurem-form/issues]
+[![Contributors][contributors-shield]]
+[![Forks][forks-shield]]
+[![Stargazers][stars-shield]]
+[![Issues][issues-shield]]
 <!-- [![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url] -->
 
