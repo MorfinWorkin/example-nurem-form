@@ -1,0 +1,12 @@
+
+.float-left {
+    
+    border-color: .15s ease-in-out;
+    box-shadow: .15s ease-in-out;
+    height: calc(3.5rem + 2px);
+    line-height: 1.25;
+    transition: ease-in;
+    display: flex;
+
+}
+

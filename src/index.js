@@ -3,16 +3,29 @@ import ReactDOM from 'react-dom';
 import { MyButton, Form, SelectBox, InputTextBox, BigTextBox, SubmitFormButton } from './components/Form';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import CustomButton from './components/CustomButton';
+import CustomInputTextBox from './components/CustomInput';
 
 ReactDOM.render(
   <React.StrictMode>
-    <InputTextBox />
+    {/* <InputTextBox />
     <SelectBox />
-    <BigTextBox />
-    {/* <Form /> */}
+    <BigTextBox /> 
+    <Form /> */}
+    <CustomInputTextBox
+      className='float-left'
+      text='Email'
+      mutedText='correo@ejemplo.com'
+      innerText='Ingresa tu correo perro'
+    />
+    <CustomInputTextBox
+      text='Nombre'
+      mutedText=' '
+      innerText='Ingresa tu nombre baby'
+    />
     <SubmitFormButton />
     <p>USELESS BUTTONS</p>
-    <CustomButton/>
+    <CustomButton />
+
   </React.StrictMode>,
   document.getElementById('root')
 );
