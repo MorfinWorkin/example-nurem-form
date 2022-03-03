@@ -1,43 +1,42 @@
 import React from 'react';
 import { Form, FormLabel } from 'react-bootstrap';
 
+const CustomRadios = ({ title, option1, option2, option3 }) => {
+   return (
+      <Form className='custom-margin'>
+         {title ? (
+            <FormLabel>{title}</FormLabel>
+         ) : (
+            'Define un titulo para este componente'
+         )}
+         {['radio'].map((type) => (
+            <div key={`inline-${type}`} className='custom-margin'>
+               <Form.Check
+                  inline
+                  label={option1}
+                  name='group1'
+                  type={type}
+                  id={`inline-${type}-1`}
+               />
+               <Form.Check
+                  inline
+                  label={option2}
+                  name='group1'
+                  type={type}
+                  id={`inline-${type}-2`}
+               />
+               <Form.Check
+                  inline
+                  //disabled
+                  label={option3}
+                  name='group1'
+                  type={type}
+                  id={`inline-${type}-3`}
+               />
+            </div>
+         ))}
+      </Form>
+   );
+};
 
-
-const CustomRadios = ({text}) => {
-    return (
-        <Form>
-            {text ? 
-            <FormLabel>{text}</FormLabel>
-            : 'Gonorrea marika agrega nombre a este componente'}
-            {['radio'].map((type, options) => (
-                <div key={`inline-${type}`} className="mb-3">
-                    <Form.Check
-                        inline
-                        label="Femenino"
-                        name="group1"
-                        type={type}
-                        id={`inline-${type}-1`}
-                    />
-                    <Form.Check
-                        inline
-                        label="Masculino"
-                        name="group1"
-                        type={type}
-                        id={`inline-${type}-2`}
-                    />
-                    <Form.Check
-                        inline
-                        //disabled
-                        label="Otro"
-                        name = 'group1'
-                        type={type}
-                        id={`inline-${type}-3`}
-                    />
-                </div>
-            ))}
-        </Form>
-
-    );
-}
-
-export default CustomRadios
+export default CustomRadios;
