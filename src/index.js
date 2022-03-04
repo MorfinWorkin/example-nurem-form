@@ -14,7 +14,7 @@ ReactDOM.render(
     <BigTextBox /> 
     <Form /> */}
 
-      <div>
+      <div className='container'>
          <CustomInputTextBox text='Nombre' />
          <CustomInputTextBox text='Apellidos' />
          <CustomInputTextBox text='Edad' />
@@ -31,8 +31,9 @@ ReactDOM.render(
          </Stack>
          <CustomInputTextBox text='Motivo de la consulta' />
          <CustomInputTextBox text='Email' />
-
-         <p> Emergencia notificar a : </p>
+         <h1 align='center'>
+            <p style={{ fontSize: '1.22rem' }}>Emergencia notificar a :</p>
+         </h1>
          <CustomInputTextBox text='Nombre' />
          <CustomInputTextBox text='Cel' />
       </div>
